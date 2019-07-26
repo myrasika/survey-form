@@ -12,34 +12,34 @@
 </head>
 
 <body>
-    <h1 id="title">Survey Form</h1>
-    <div id="form-outer">
-        <p id="description">
+    <h1 class="title">Survey Form</h1>
+    <div class="form-outer">
+        <p class="description">
             Let us know how to improve freeCodeCamp
         </p>
-        <form id="survey-form" method="GET" action="https://crossorigin.me/https://freecodecamp.com">
+        <form class="survey-form" method="GET" action="https://crossorigin.me/https://freecodecamp.com">
             <div class="rowTab">
                 <div class="labels">
-                    <label id="name-label" for="name">* Name: </label>
+                    <label class="name-label" for="name">* Name: </label>
                 </div>
                 <div class="rightTab">
-                    <input autofocus type="text" name="name" id="name" class="input-field" placeholder="Enter your name" required>
+                    <input autofocus type="text" name="name" class="name" class="input-field" placeholder="Enter your name" required>
                 </div>
             </div>
             <div class="rowTab">
                 <div class="labels">
-                    <label id="email-label" for="email">* Email: </label>
+                    <label class="email-label" for="email">* Email: </label>
                 </div>
                 <div class="rightTab">
-                    <input type="email" name="email" id="email" class="input-field" required placeholder="Enter your Email">
+                    <input type="email" name="email" class="email" class="input-field" required placeholder="Enter your Email">
                 </div>
             </div>
             <div class="rowTab">
                 <div class="labels">
-                    <label id="number-label" for="age">* Age: </label>
+                    <label class="number-label" for="age">* Age: </label>
                 </div>
                 <div class="rightTab">
-                    <input type="number" name="age" id="number" min="1" max="125" class="input-field" placeholder="Age">
+                    <input type="number" name="age" class="number" min="1" max="125" class="input-field" placeholder="Age">
                 </div>
             </div>
             <div class="rowTab">
@@ -47,7 +47,7 @@
                     <label for="currentPos">Which option best describes your current role?</label>
                 </div>
                 <div class="rightTab">
-                    <select id="dropdown" name="currentPos" class="dropdown">
+                    <select class="dropdown" name="currentPos" class="dropdown">
         <option disabled value>Select an option</option>
         <option  value="student">Student</option>
         <option value="job">Full Time Job</option>
@@ -74,7 +74,7 @@
                     <label for="most-like">What do you like most in FCC: </label>
                 </div>
                 <div class="rightTab">
-                    <select id="most-like" name="mostLike" class="dropdown">
+                    <select class="most-like" name="mostLike" class="dropdown">
         <option disabled selected value>Select an option</option>
         <option value="challenges">Challenges</option>
         <option value="projects">Projects</option>
@@ -88,7 +88,7 @@
                     <label for="preferences">Things that should be improved in the future<br>(Check all that apply): </label>
                 </div>
                 <div class="rightTab">
-                    <ul id="preferences" style="list-style: none;">
+                    <ul class="preferences" style="list-style: none;">
                         <li class="checkbox"><label><input name="prefer" value="1" type="checkbox" class="userRatings">Front-end Projects</label></li>
                         <li class="checkbox"><input name="prefer" value="2" type="checkbox" class="userRatings">Back-end Projects</li>
                         <li class="checkbox"><label><input name="prefer" value="3" type="checkbox" class="userRatings">Data Visualization</label></li>
@@ -111,7 +111,7 @@
                     <textarea id="comments" class="input-field" style="height:50px;resize:vertical;" name="comment" placeholder="Enter your comment here..."></textarea>
                 </div>
             </div>
-            <button id="submit" type="submit">Submit</button>
+            <button class="submit" type="submit">Submit</button>
         </form>
     </div>
 
