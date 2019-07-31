@@ -1,4 +1,3 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
 html,
 body {
     background-color: #a9d7d1;
@@ -58,7 +57,7 @@ input[type="checkbox"] {
     margin-right: 5px;
 }
 
-#submit {
+.submit {
     background-color: #1773ac;
     border-radius: 4px;
     color: white;
